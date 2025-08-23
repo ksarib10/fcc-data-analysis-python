@@ -17,7 +17,18 @@ Each folder represents a project with its implementation and tests.
      - Min
      - Sum
 
-2. **Demographic Data Analyzer** (coming soon)
+2. **Demographic Data Analyzer** 
+   This project analyzes demographic data from the UCI Adult dataset.  
+   It answers questions like:  
+   - Percentage of people with advanced education earning >50K  
+   - Most popular occupations in India  
+   - Average working hours for high earners, etc.  
+
+   ## How to run  
+   1. Clone this repo  
+   2. Install dependencies with: pip install -r requirements.txt  
+   3. Run: python main.py
+
 3. **Medical Data Visualizer** (coming soon)
 4. **Page View Time Series Visualizer** (coming soon)
 5. **Sea Level Predictor** (coming soon)
