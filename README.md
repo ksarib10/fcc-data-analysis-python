@@ -25,6 +25,8 @@ Each folder represents a project with its implementation and tests.
    - Average working hours for high earners, etc.  
 
 3. **Medical Data Visualizer** (coming soon)
+2. **Demographic Data Analyzer** (coming soon)
+3. **Medical Data Visualizer** 
 4. **Page View Time Series Visualizer** (coming soon)
 5. **Sea Level Predictor** (coming soon)
 
