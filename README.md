@@ -60,6 +60,16 @@ Each project folder includes its implementation and tests. The goal is to practi
 
 ---
 
+### 📌 Skills Practiced
+  - Data Cleaning & Preprocessing
+  - Exploratory Data Analysis (EDA)
+  - Statistical Analysis (SciPy, NumPy)
+  - Data Visualization (Matplotlib, Seaborn)
+  - Working with Real Datasets (CSV, UCI, EPA, FCC)
+  - Python Scripting & Modular Code
+
+---
+
 ## 🛠️ Setup & Usage
 
 Clone the repo:
