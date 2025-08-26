@@ -1,52 +1,67 @@
-# Data Analysis with Python Projects
+# 📊 Data Analysis with Python Projects
 
 This repository contains my solutions to the **FreeCodeCamp Data Analysis with Python** certification projects.  
-Each folder represents a project with its implementation and tests.
+Each project folder includes its implementation and tests. The goal is to practice **data cleaning, analysis, and visualization** using Python libraries.
 
 ---
 
-## 📂 Projects
-### 1. **Mean-Variance-Standard Deviation Calculator**
-   - File: `mean_var_std.py`
-   - Tests: `test_module.py`
-   - Description: Given a 9-element list, reshapes it into a 3x3 matrix and calculates:
-     - Mean
-     - Variance
-     - Standard Deviation
-     - Max
-     - Min
-     - Sum
+## 🚀 Projects
 
-### 2. **Demographic Data Analyzer** 
-   This project analyzes demographic data from the UCI Adult dataset.  
-   It answers questions like:  
-   - Percentage of people with advanced education earning >50K  
-   - Most popular occupations in India  
-   - Average working hours for high earners, etc.  
-
-
-### 3. **Medical Data Visualizer** 
-This project is part of [freeCodeCamp's Data Analysis with Python Certification](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/medical-data-visualizer).  
-It analyzes and visualizes medical data using **Pandas**, **Matplotlib**, and **Seaborn**.
+### 1. Mean-Variance-Standard Deviation Calculator
+- **File:** `mean_var_std.py`  
+- **Tests:** `test_module.py`  
+- **Description:**  
+  Reshapes a 9-element list into a 3x3 matrix and calculates:
+  - Mean
+  - Variance
+  - Standard Deviation
+  - Max
+  - Min
+  - Sum  
 
 ---
 
-#### 📌 Project Description
-   We are working with patient data (`medical_examination.csv`) that contains information about body measurements, blood tests, lifestyle           choices, and cardio disease presence.  
-   
-   The project requires creating two visualizations:
-   1. **Categorical Plot (catplot.png)**  
-      - Shows the distribution of various categorical features (smoke, alco, active, cholesterol, gluc, overweight) split by cardiovascular              disease.
-   2. **Heatmap (heatmap.png)**  
-      - Shows correlations between numerical features in the dataset after cleaning the data.
+### 2. Demographic Data Analyzer
+- **Dataset:** UCI Adult dataset  
+- **Description:**  
+  Analyzes demographic data to answer questions like:
+  - % of people with advanced education earning >50K  
+  - Most popular occupations in India  
+  - Average working hours for high earners  
 
 ---
-### 4. **Page View Time Series Visualizer** (coming soon)
-### 5. **Sea Level Predictor** (coming soon)
+
+### 3. Medical Data Visualizer
+- **Libraries Used:** Pandas, Matplotlib, Seaborn  
+- **Dataset:** `medical_examination.csv`  
+- **Visualizations:**  
+  - **Categorical Plot (catplot.png):** Distribution of categorical features (smoke, alco, active, cholesterol, gluc, overweight) split by cardiovascular disease.  
+  - **Heatmap (heatmap.png):** Correlation matrix of cleaned numerical features.  
+
+---
+
+### 4. Page View Time Series Visualizer
+- **Libraries Used:** Pandas, Matplotlib, Seaborn  
+- **Dataset:** freeCodeCamp forum page views (2016–2019)  
+- **Visualizations:**  
+  - **Line Plot:** Daily page views over time.  
+  - **Bar Plot:** Monthly average page views by year.  
+  - **Box Plots:** Year-wise and month-wise distribution of page views.  
+
+---
+
+### 5. Sea Level Predictor
+- **Libraries Used:** Pandas, Matplotlib, SciPy  
+- **Dataset:** Global sea level change data from 1880–2014 (EPA dataset)  
+- **Tasks:**  
+  - Scatter plot of historical sea level data.  
+  - **First Line of Best Fit:** Predict sea level rise through year 2050 using all data.  
+  - **Second Line of Best Fit:** Predict sea level rise using data from 2000–2014 only.  
 
 ---
 
 ## 🛠️ Setup & Usage
+
 Clone the repo:
 ```bash
 git clone https://github.com/YOUR-USERNAME/data-analysis-projects.git
